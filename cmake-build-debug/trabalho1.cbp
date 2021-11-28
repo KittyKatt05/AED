@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Aeroporto.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Aeroporto.h">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/bagagem.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/bagagem.h">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/carruagem.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/carruagem.h">
+			<Option target="trabalho1"/>
+		</Unit>
 		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/main.cpp">
 			<Option target="trabalho1"/>
 		</Unit>

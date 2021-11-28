@@ -78,19 +78,64 @@ CMakeFiles/trabalho1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/main.cpp.s"
 	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\FEUP\2º ano\1o semestre\AED\trabalho1\main.cpp" -o CMakeFiles\trabalho1.dir\main.cpp.s
 
+CMakeFiles/trabalho1.dir/classes/carruagem.cpp.obj: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/classes/carruagem.cpp.obj: ../classes/carruagem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\FEUP\2º ano\1o semestre\AED\trabalho1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalho1.dir/classes/carruagem.cpp.obj"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho1.dir\classes\carruagem.cpp.obj -c "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\carruagem.cpp"
+
+CMakeFiles/trabalho1.dir/classes/carruagem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/carruagem.cpp.i"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\carruagem.cpp" > CMakeFiles\trabalho1.dir\classes\carruagem.cpp.i
+
+CMakeFiles/trabalho1.dir/classes/carruagem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/carruagem.cpp.s"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\carruagem.cpp" -o CMakeFiles\trabalho1.dir\classes\carruagem.cpp.s
+
+CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj: ../classes/Aeroporto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\FEUP\2º ano\1o semestre\AED\trabalho1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho1.dir\classes\Aeroporto.cpp.obj -c "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\Aeroporto.cpp"
+
+CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.i"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\Aeroporto.cpp" > CMakeFiles\trabalho1.dir\classes\Aeroporto.cpp.i
+
+CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.s"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\Aeroporto.cpp" -o CMakeFiles\trabalho1.dir\classes\Aeroporto.cpp.s
+
+CMakeFiles/trabalho1.dir/classes/bagagem.cpp.obj: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/classes/bagagem.cpp.obj: ../classes/bagagem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\FEUP\2º ano\1o semestre\AED\trabalho1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/trabalho1.dir/classes/bagagem.cpp.obj"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\trabalho1.dir\classes\bagagem.cpp.obj -c "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\bagagem.cpp"
+
+CMakeFiles/trabalho1.dir/classes/bagagem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/bagagem.cpp.i"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\bagagem.cpp" > CMakeFiles\trabalho1.dir\classes\bagagem.cpp.i
+
+CMakeFiles/trabalho1.dir/classes/bagagem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/bagagem.cpp.s"
+	"D:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\FEUP\2º ano\1o semestre\AED\trabalho1\classes\bagagem.cpp" -o CMakeFiles\trabalho1.dir\classes\bagagem.cpp.s
+
 # Object files for target trabalho1
 trabalho1_OBJECTS = \
-"CMakeFiles/trabalho1.dir/main.cpp.obj"
+"CMakeFiles/trabalho1.dir/main.cpp.obj" \
+"CMakeFiles/trabalho1.dir/classes/carruagem.cpp.obj" \
+"CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj" \
+"CMakeFiles/trabalho1.dir/classes/bagagem.cpp.obj"
 
 # External object files for target trabalho1
 trabalho1_EXTERNAL_OBJECTS =
 
 trabalho1.exe: CMakeFiles/trabalho1.dir/main.cpp.obj
+trabalho1.exe: CMakeFiles/trabalho1.dir/classes/carruagem.cpp.obj
+trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj
+trabalho1.exe: CMakeFiles/trabalho1.dir/classes/bagagem.cpp.obj
 trabalho1.exe: CMakeFiles/trabalho1.dir/build.make
 trabalho1.exe: CMakeFiles/trabalho1.dir/linklibs.rsp
 trabalho1.exe: CMakeFiles/trabalho1.dir/objects1.rsp
 trabalho1.exe: CMakeFiles/trabalho1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\FEUP\2º ano\1o semestre\AED\trabalho1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable trabalho1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\FEUP\2º ano\1o semestre\AED\trabalho1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable trabalho1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\trabalho1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

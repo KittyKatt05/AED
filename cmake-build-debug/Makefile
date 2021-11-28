@@ -128,6 +128,78 @@ trabalho1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/build
 .PHONY : trabalho1/fast
 
+classes/Aeroporto.obj: classes/Aeroporto.cpp.obj
+.PHONY : classes/Aeroporto.obj
+
+# target to build an object file
+classes/Aeroporto.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj
+.PHONY : classes/Aeroporto.cpp.obj
+
+classes/Aeroporto.i: classes/Aeroporto.cpp.i
+.PHONY : classes/Aeroporto.i
+
+# target to preprocess a source file
+classes/Aeroporto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.i
+.PHONY : classes/Aeroporto.cpp.i
+
+classes/Aeroporto.s: classes/Aeroporto.cpp.s
+.PHONY : classes/Aeroporto.s
+
+# target to generate assembly for a file
+classes/Aeroporto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.s
+.PHONY : classes/Aeroporto.cpp.s
+
+classes/bagagem.obj: classes/bagagem.cpp.obj
+.PHONY : classes/bagagem.obj
+
+# target to build an object file
+classes/bagagem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/bagagem.cpp.obj
+.PHONY : classes/bagagem.cpp.obj
+
+classes/bagagem.i: classes/bagagem.cpp.i
+.PHONY : classes/bagagem.i
+
+# target to preprocess a source file
+classes/bagagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/bagagem.cpp.i
+.PHONY : classes/bagagem.cpp.i
+
+classes/bagagem.s: classes/bagagem.cpp.s
+.PHONY : classes/bagagem.s
+
+# target to generate assembly for a file
+classes/bagagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/bagagem.cpp.s
+.PHONY : classes/bagagem.cpp.s
+
+classes/carruagem.obj: classes/carruagem.cpp.obj
+.PHONY : classes/carruagem.obj
+
+# target to build an object file
+classes/carruagem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/carruagem.cpp.obj
+.PHONY : classes/carruagem.cpp.obj
+
+classes/carruagem.i: classes/carruagem.cpp.i
+.PHONY : classes/carruagem.i
+
+# target to preprocess a source file
+classes/carruagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/carruagem.cpp.i
+.PHONY : classes/carruagem.cpp.i
+
+classes/carruagem.s: classes/carruagem.cpp.s
+.PHONY : classes/carruagem.s
+
+# target to generate assembly for a file
+classes/carruagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/carruagem.cpp.s
+.PHONY : classes/carruagem.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +233,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... trabalho1
+	@echo ... classes/Aeroporto.obj
+	@echo ... classes/Aeroporto.i
+	@echo ... classes/Aeroporto.s
+	@echo ... classes/bagagem.obj
+	@echo ... classes/bagagem.i
+	@echo ... classes/bagagem.s
+	@echo ... classes/carruagem.obj
+	@echo ... classes/carruagem.i
+	@echo ... classes/carruagem.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
