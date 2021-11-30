@@ -153,6 +153,102 @@ classes/Aeroporto.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.s
 .PHONY : classes/Aeroporto.cpp.s
 
+classes/Aviao.o: classes/Aviao.cpp.o
+.PHONY : classes/Aviao.o
+
+# target to build an object file
+classes/Aviao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Aviao.cpp.o
+.PHONY : classes/Aviao.cpp.o
+
+classes/Aviao.i: classes/Aviao.cpp.i
+.PHONY : classes/Aviao.i
+
+# target to preprocess a source file
+classes/Aviao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Aviao.cpp.i
+.PHONY : classes/Aviao.cpp.i
+
+classes/Aviao.s: classes/Aviao.cpp.s
+.PHONY : classes/Aviao.s
+
+# target to generate assembly for a file
+classes/Aviao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Aviao.cpp.s
+.PHONY : classes/Aviao.cpp.s
+
+classes/Date.o: classes/Date.cpp.o
+.PHONY : classes/Date.o
+
+# target to build an object file
+classes/Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Date.cpp.o
+.PHONY : classes/Date.cpp.o
+
+classes/Date.i: classes/Date.cpp.i
+.PHONY : classes/Date.i
+
+# target to preprocess a source file
+classes/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Date.cpp.i
+.PHONY : classes/Date.cpp.i
+
+classes/Date.s: classes/Date.cpp.s
+.PHONY : classes/Date.s
+
+# target to generate assembly for a file
+classes/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Date.cpp.s
+.PHONY : classes/Date.cpp.s
+
+classes/LocalDeTransporte.o: classes/LocalDeTransporte.cpp.o
+.PHONY : classes/LocalDeTransporte.o
+
+# target to build an object file
+classes/LocalDeTransporte.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.o
+.PHONY : classes/LocalDeTransporte.cpp.o
+
+classes/LocalDeTransporte.i: classes/LocalDeTransporte.cpp.i
+.PHONY : classes/LocalDeTransporte.i
+
+# target to preprocess a source file
+classes/LocalDeTransporte.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.i
+.PHONY : classes/LocalDeTransporte.cpp.i
+
+classes/LocalDeTransporte.s: classes/LocalDeTransporte.cpp.s
+.PHONY : classes/LocalDeTransporte.s
+
+# target to generate assembly for a file
+classes/LocalDeTransporte.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.s
+.PHONY : classes/LocalDeTransporte.cpp.s
+
+classes/Passageiro.o: classes/Passageiro.cpp.o
+.PHONY : classes/Passageiro.o
+
+# target to build an object file
+classes/Passageiro.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Passageiro.cpp.o
+.PHONY : classes/Passageiro.cpp.o
+
+classes/Passageiro.i: classes/Passageiro.cpp.i
+.PHONY : classes/Passageiro.i
+
+# target to preprocess a source file
+classes/Passageiro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Passageiro.cpp.i
+.PHONY : classes/Passageiro.cpp.i
+
+classes/Passageiro.s: classes/Passageiro.cpp.s
+.PHONY : classes/Passageiro.s
+
+# target to generate assembly for a file
+classes/Passageiro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Passageiro.cpp.s
+.PHONY : classes/Passageiro.cpp.s
+
 classes/bagagem.o: classes/bagagem.cpp.o
 .PHONY : classes/bagagem.o
 
@@ -237,6 +333,18 @@ help:
 	@echo "... classes/Aeroporto.o"
 	@echo "... classes/Aeroporto.i"
 	@echo "... classes/Aeroporto.s"
+	@echo "... classes/Aviao.o"
+	@echo "... classes/Aviao.i"
+	@echo "... classes/Aviao.s"
+	@echo "... classes/Date.o"
+	@echo "... classes/Date.i"
+	@echo "... classes/Date.s"
+	@echo "... classes/LocalDeTransporte.o"
+	@echo "... classes/LocalDeTransporte.i"
+	@echo "... classes/LocalDeTransporte.s"
+	@echo "... classes/Passageiro.o"
+	@echo "... classes/Passageiro.i"
+	@echo "... classes/Passageiro.s"
 	@echo "... classes/bagagem.o"
 	@echo "... classes/bagagem.i"
 	@echo "... classes/bagagem.s"
