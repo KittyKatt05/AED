@@ -177,29 +177,29 @@ classes/Aviao.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Aviao.cpp.s
 .PHONY : classes/Aviao.cpp.s
 
-classes/Date.o: classes/Date.cpp.o
-.PHONY : classes/Date.o
+classes/Data.o: classes/Data.cpp.o
+.PHONY : classes/Data.o
 
 # target to build an object file
-classes/Date.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Date.cpp.o
-.PHONY : classes/Date.cpp.o
+classes/Data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Data.cpp.o
+.PHONY : classes/Data.cpp.o
 
-classes/Date.i: classes/Date.cpp.i
-.PHONY : classes/Date.i
+classes/Data.i: classes/Data.cpp.i
+.PHONY : classes/Data.i
 
 # target to preprocess a source file
-classes/Date.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Date.cpp.i
-.PHONY : classes/Date.cpp.i
+classes/Data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Data.cpp.i
+.PHONY : classes/Data.cpp.i
 
-classes/Date.s: classes/Date.cpp.s
-.PHONY : classes/Date.s
+classes/Data.s: classes/Data.cpp.s
+.PHONY : classes/Data.s
 
 # target to generate assembly for a file
-classes/Date.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Date.cpp.s
-.PHONY : classes/Date.cpp.s
+classes/Data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Data.cpp.s
+.PHONY : classes/Data.cpp.s
 
 classes/LocalDeTransporte.o: classes/LocalDeTransporte.cpp.o
 .PHONY : classes/LocalDeTransporte.o
@@ -225,6 +225,30 @@ classes/LocalDeTransporte.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.s
 .PHONY : classes/LocalDeTransporte.cpp.s
 
+classes/Manutencao.o: classes/Manutencao.cpp.o
+.PHONY : classes/Manutencao.o
+
+# target to build an object file
+classes/Manutencao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o
+.PHONY : classes/Manutencao.cpp.o
+
+classes/Manutencao.i: classes/Manutencao.cpp.i
+.PHONY : classes/Manutencao.i
+
+# target to preprocess a source file
+classes/Manutencao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.i
+.PHONY : classes/Manutencao.cpp.i
+
+classes/Manutencao.s: classes/Manutencao.cpp.s
+.PHONY : classes/Manutencao.s
+
+# target to generate assembly for a file
+classes/Manutencao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.s
+.PHONY : classes/Manutencao.cpp.s
+
 classes/Passageiro.o: classes/Passageiro.cpp.o
 .PHONY : classes/Passageiro.o
 
@@ -248,6 +272,30 @@ classes/Passageiro.s: classes/Passageiro.cpp.s
 classes/Passageiro.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Passageiro.cpp.s
 .PHONY : classes/Passageiro.cpp.s
+
+classes/Voo.o: classes/Voo.cpp.o
+.PHONY : classes/Voo.o
+
+# target to build an object file
+classes/Voo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Voo.cpp.o
+.PHONY : classes/Voo.cpp.o
+
+classes/Voo.i: classes/Voo.cpp.i
+.PHONY : classes/Voo.i
+
+# target to preprocess a source file
+classes/Voo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Voo.cpp.i
+.PHONY : classes/Voo.cpp.i
+
+classes/Voo.s: classes/Voo.cpp.s
+.PHONY : classes/Voo.s
+
+# target to generate assembly for a file
+classes/Voo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Voo.cpp.s
+.PHONY : classes/Voo.cpp.s
 
 classes/bagagem.o: classes/bagagem.cpp.o
 .PHONY : classes/bagagem.o
@@ -336,15 +384,21 @@ help:
 	@echo "... classes/Aviao.o"
 	@echo "... classes/Aviao.i"
 	@echo "... classes/Aviao.s"
-	@echo "... classes/Date.o"
-	@echo "... classes/Date.i"
-	@echo "... classes/Date.s"
+	@echo "... classes/Data.o"
+	@echo "... classes/Data.i"
+	@echo "... classes/Data.s"
 	@echo "... classes/LocalDeTransporte.o"
 	@echo "... classes/LocalDeTransporte.i"
 	@echo "... classes/LocalDeTransporte.s"
+	@echo "... classes/Manutencao.o"
+	@echo "... classes/Manutencao.i"
+	@echo "... classes/Manutencao.s"
 	@echo "... classes/Passageiro.o"
 	@echo "... classes/Passageiro.i"
 	@echo "... classes/Passageiro.s"
+	@echo "... classes/Voo.o"
+	@echo "... classes/Voo.i"
+	@echo "... classes/Voo.s"
 	@echo "... classes/bagagem.o"
 	@echo "... classes/bagagem.i"
 	@echo "... classes/bagagem.s"

@@ -2,20 +2,20 @@
 // Created by ZLAmo on 30/11/2021.
 //
 
-#ifndef TRABALHO1_DATE_H
-#define TRABALHO1_DATE_H
+#ifndef TRABALHO1_DATA_H
+#define TRABALHO1_DATA_H
 
 #include <string>
 using namespace std;
 
-class Date {
+class Data {
     int day{};
     int month{};
     int year{};
 public:
 
-    Date();
-    Date(int day, int month, int year);
+    Data();
+    Data(int day, int month, int year);
 
     string toString() const;
 
@@ -27,12 +27,12 @@ public:
     void setMonth(int month);
     void setYear(int year);
 
-    bool operator<(Date date) const;
-    bool operator==(Date date) const;
-    bool operator<=(Date date) const;
-    bool operator>(Date date) const;
-    bool operator>=(Date date) const;
+    bool operator<(Data date) const;
+    bool operator==(Data date) const;
+    bool operator<=(Data date) const;
+    bool operator>(Data date) const;
+    bool operator>=(Data date) const;
 };
 
 
-#endif //TRABALHO1_DATE_H
+#endif //TRABALHO1_DATA_H

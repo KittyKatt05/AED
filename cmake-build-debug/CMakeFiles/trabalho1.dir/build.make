@@ -157,18 +157,44 @@ CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/LocalDeTransporte.cpp -o CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.s
 
-CMakeFiles/trabalho1.dir/classes/Date.cpp.o: CMakeFiles/trabalho1.dir/flags.make
-CMakeFiles/trabalho1.dir/classes/Date.cpp.o: ../classes/Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/trabalho1.dir/classes/Date.cpp.o"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/classes/Date.cpp.o -c /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Date.cpp
+CMakeFiles/trabalho1.dir/classes/Data.cpp.o: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/classes/Data.cpp.o: ../classes/Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/trabalho1.dir/classes/Data.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/classes/Data.cpp.o -c /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.cpp
 
-CMakeFiles/trabalho1.dir/classes/Date.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/Date.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Date.cpp > CMakeFiles/trabalho1.dir/classes/Date.cpp.i
+CMakeFiles/trabalho1.dir/classes/Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/Data.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.cpp > CMakeFiles/trabalho1.dir/classes/Data.cpp.i
 
-CMakeFiles/trabalho1.dir/classes/Date.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/Date.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Date.cpp -o CMakeFiles/trabalho1.dir/classes/Date.cpp.s
+CMakeFiles/trabalho1.dir/classes/Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/Data.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.cpp -o CMakeFiles/trabalho1.dir/classes/Data.cpp.s
+
+CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o: ../classes/Manutencao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o -c /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.cpp
+
+CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.cpp > CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.i
+
+CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.cpp -o CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.s
+
+CMakeFiles/trabalho1.dir/classes/Voo.cpp.o: CMakeFiles/trabalho1.dir/flags.make
+CMakeFiles/trabalho1.dir/classes/Voo.cpp.o: ../classes/Voo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/trabalho1.dir/classes/Voo.cpp.o"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalho1.dir/classes/Voo.cpp.o -c /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.cpp
+
+CMakeFiles/trabalho1.dir/classes/Voo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalho1.dir/classes/Voo.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.cpp > CMakeFiles/trabalho1.dir/classes/Voo.cpp.i
+
+CMakeFiles/trabalho1.dir/classes/Voo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalho1.dir/classes/Voo.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.cpp -o CMakeFiles/trabalho1.dir/classes/Voo.cpp.s
 
 # Object files for target trabalho1
 trabalho1_OBJECTS = \
@@ -179,7 +205,9 @@ trabalho1_OBJECTS = \
 "CMakeFiles/trabalho1.dir/classes/Aviao.cpp.o" \
 "CMakeFiles/trabalho1.dir/classes/Passageiro.cpp.o" \
 "CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.o" \
-"CMakeFiles/trabalho1.dir/classes/Date.cpp.o"
+"CMakeFiles/trabalho1.dir/classes/Data.cpp.o" \
+"CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o" \
+"CMakeFiles/trabalho1.dir/classes/Voo.cpp.o"
 
 # External object files for target trabalho1
 trabalho1_EXTERNAL_OBJECTS =
@@ -191,10 +219,12 @@ trabalho1.exe: CMakeFiles/trabalho1.dir/classes/bagagem.cpp.o
 trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Aviao.cpp.o
 trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Passageiro.cpp.o
 trabalho1.exe: CMakeFiles/trabalho1.dir/classes/LocalDeTransporte.cpp.o
-trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Date.cpp.o
+trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Data.cpp.o
+trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Manutencao.cpp.o
+trabalho1.exe: CMakeFiles/trabalho1.dir/classes/Voo.cpp.o
 trabalho1.exe: CMakeFiles/trabalho1.dir/build.make
 trabalho1.exe: CMakeFiles/trabalho1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable trabalho1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable trabalho1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trabalho1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

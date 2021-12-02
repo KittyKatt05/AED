@@ -92,10 +92,10 @@
 		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aviao.h">
 			<Option target="trabalho1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Date.cpp">
+		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.cpp">
 			<Option target="trabalho1"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Date.h">
+		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.h">
 			<Option target="trabalho1"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/LocalDeTransporte.cpp">
@@ -104,10 +104,22 @@
 		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/LocalDeTransporte.h">
 			<Option target="trabalho1"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.h">
+			<Option target="trabalho1"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.cpp">
 			<Option target="trabalho1"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.h">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.h">
 			<Option target="trabalho1"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/bagagem.cpp">

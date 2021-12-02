@@ -7,12 +7,16 @@
 using namespace std;
 
 Aviao::Aviao(){}
-Aviao::Aviao(string matricula, string tipo, double capacidade/*, Voo flightPlan,
-     queue<Manutencao> cronogramaManutencao, queue<Manutencao> manutencaoFeita, Bagagem bagagem*/){
+Aviao::Aviao(string matricula, string tipo, double capacidade, list<Voo> planoDeVoo,
+     queue<Manutencao> cronogramaManutencao, list<Manutencao> manutencaoFeita, list<Bagagem> bagagem){
     this->matricula = matricula;
     this->tipo = tipo;
     this->capacidade = capacidade;
-    // TODO
+    this->planoDeVoo = planoDeVoo;
+    this->cronogramaManutencao = cronogramaManutencao;
+    this->manutencaoFeita = manutencaoFeita;
+    this->bagagem = bagagem;
+
 }
 
 string Aviao::getMatricula(){
@@ -50,3 +54,29 @@ void Aviao::setBagagem(list<Bagagem> Bagagem){
 void Aviao::addBagagem(Bagagem bagagem){
     this->bagagem.push_back(bagagem);
 }
+
+list<Voo> Aviao::getPlanoDeVoo() {
+    return this->planoDeVoo;
+}
+
+queue<Manutencao> Aviao::getCronogramaManutencao() {
+    return this->cronogramaManutencao;
+}
+
+list<Manutencao> Aviao::getManutencaoFeita() {
+    return this->manutencaoFeita;
+}
+
+void Aviao::setPlanoDeVoo(list<Voo> planoDeVoo) {
+    this->planoDeVoo = planoDeVoo;
+}
+
+void Aviao::setCronogramaManutencao(queue<Manutencao> cronogramaManutencao) {
+    this->cronogramaManutencao = cronogramaManutencao;
+}
+
+void Aviao::setManutencaoFeita(list<Manutencao> manutencaoFeita) {
+    this->manutencaoFeita = manutencaoFeita;
+}
+
+
