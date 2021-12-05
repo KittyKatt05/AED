@@ -79,4 +79,14 @@ void Aviao::setManutencaoFeita(list<Manutencao> manutencaoFeita) {
     this->manutencaoFeita = manutencaoFeita;
 }
 
+void Aviao::addVoo(Voo voo) {
+    this->planoDeVoo.push_back(voo);
+}
 
+void Aviao::addManutencao(Manutencao manutencao) {
+    if( manutencao.operator>(this->cronogramaManutencao.back())){
+        this->cronogramaManutencao.push(manutencao);
+    }else{
+        //não adiciona porque seria no mesmo dia ou antes da última manutenção adicionada
+    }
+}

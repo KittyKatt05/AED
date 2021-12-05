@@ -35,3 +35,23 @@ void Manutencao::setResponsavel(string responsible) {
 void Manutencao::setTipoDeServico(TipoDeServico Type_Service) {
     this-> TypeService = Type_Service;
 }
+
+bool Manutencao::operator<(const Manutencao& manutencao1) {
+    return this->data.operator<(manutencao1.data);
+}
+
+bool Manutencao::operator<=(const Manutencao& manutencao1) {
+    return this->data.operator<=(manutencao1.data);
+}
+
+bool Manutencao::operator==(const Manutencao& manutencao1) {
+    return this->data.operator==(manutencao1.data);
+}
+
+bool Manutencao::operator>(const Manutencao& manutencao1) {
+    return this->data.operator>(manutencao1.data);
+}
+
+bool Manutencao::operator>=(const Manutencao& manutencao1) {
+    return this->data.operator>=(manutencao1.data);
+}

@@ -4,28 +4,25 @@
 
 #ifndef TRABALHO1_LOCAL_DE_TRANSPORTE_H
 #define TRABALHO1_LOCAL_DE_TRANSPORTE_H
+#include "Hora.h"
 
 using namespace std;
 
 class LocalDeTransporte{
     static int nextId;
-    int id;
-    double distancia;
-    //Time horario;
+    int id{};
+    double distancia{};
+    Hora horario;
 
     public:
         LocalDeTransporte();
-        LocalDeTransporte(double distancia/*,Time horario*/);
+        LocalDeTransporte(double distancia,Hora horario);
 
         int getId();
         double getDistancia();
-        /*
-        Time getHorario();
-        */
+        Hora getHorario();
         void setDistancia(double distancia);
-        /*
-        void setHorario(Time horario);
-        */
+        void setHorario(Hora horario);
 };
 
 

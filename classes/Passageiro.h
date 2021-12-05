@@ -5,7 +5,7 @@
 #ifndef PASSAGEIRO_H
 #define PASSAGEIRO_H
 
-#include "bagagem.h"
+#include "Bagagem.h"
 #include <string>
 using namespace std;
 

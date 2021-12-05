@@ -2,7 +2,7 @@
 // Created by catar on 28/11/2021.
 //
 
-#include "carruagem.h"
+#include "Carruagem.h"
 using namespace std;
 
 Carruagem::Carruagem() {

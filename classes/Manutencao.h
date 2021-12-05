@@ -23,6 +23,11 @@ public:
     void setId(int id);
     void setResponsavel(string responsible);
     void setTipoDeServico(TipoDeServico Type_Service);
+    bool operator <(const Manutencao& manutencao1);
+    bool operator <=(const Manutencao& manutencao1);
+    bool operator ==(const Manutencao& manutencao1);
+    bool operator >(const Manutencao& manutencao1);
+    bool operator >=(const Manutencao& manutencao1);
 
 };
 #endif //TRABALHO1_MAINTENANCE_H

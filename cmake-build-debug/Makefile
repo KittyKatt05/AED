@@ -201,6 +201,30 @@ classes/Data.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Data.cpp.s
 .PHONY : classes/Data.cpp.s
 
+classes/Hora.o: classes/Hora.cpp.o
+.PHONY : classes/Hora.o
+
+# target to build an object file
+classes/Hora.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Hora.cpp.o
+.PHONY : classes/Hora.cpp.o
+
+classes/Hora.i: classes/Hora.cpp.i
+.PHONY : classes/Hora.i
+
+# target to preprocess a source file
+classes/Hora.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Hora.cpp.i
+.PHONY : classes/Hora.cpp.i
+
+classes/Hora.s: classes/Hora.cpp.s
+.PHONY : classes/Hora.s
+
+# target to generate assembly for a file
+classes/Hora.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trabalho1.dir/build.make CMakeFiles/trabalho1.dir/classes/Hora.cpp.s
+.PHONY : classes/Hora.cpp.s
+
 classes/LocalDeTransporte.o: classes/LocalDeTransporte.cpp.o
 .PHONY : classes/LocalDeTransporte.o
 
@@ -387,6 +411,9 @@ help:
 	@echo "... classes/Data.o"
 	@echo "... classes/Data.i"
 	@echo "... classes/Data.s"
+	@echo "... classes/Hora.o"
+	@echo "... classes/Hora.i"
+	@echo "... classes/Hora.s"
 	@echo "... classes/LocalDeTransporte.o"
 	@echo "... classes/LocalDeTransporte.i"
 	@echo "... classes/LocalDeTransporte.s"

@@ -6,11 +6,11 @@
 
 using namespace std;
 
-LocalDeTransporte::LocalDeTransporte(){}
-LocalDeTransporte::LocalDeTransporte(double distancia/*, Time horario*/){
+LocalDeTransporte::LocalDeTransporte()= default;
+LocalDeTransporte::LocalDeTransporte(double distancia, Hora horario){
     this->distancia = distancia;
     this->id = this->nextId++;
-    //TODO
+    this->horario = horario;
 }
 
 int LocalDeTransporte::getId(){
@@ -21,6 +21,16 @@ double LocalDeTransporte::getDistancia(){
     return this->distancia;
 }
 
+Hora LocalDeTransporte::getHorario() {
+    return this->horario;
+}
+
 void LocalDeTransporte::setDistancia(double distancia){
     this->distancia = distancia;
 }
+
+void LocalDeTransporte::setHorario(Hora horario) {
+    this->horario = horario;
+}
+
+

@@ -5,12 +5,12 @@
 #ifndef TRABALHO1_AVIAO_H
 #define TRABALHO1_AVIAO_H
 
-#include "bagagem.h"
+#include "Bagagem.h"
 #include "Voo.h"
 #include "Manutencao.h"
 #include <string>
 #include <list>
-#include "queue"
+#include <queue>
 
 using namespace std;
 

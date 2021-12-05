@@ -9,15 +9,24 @@ Voo::Voo(){
     destino = 'null';
 }
 
-Voo::Voo(string numVoo,Data date, string duracao, string origem, string destino ,Passageiro passageiro) {
+Voo::Voo(string numVoo,Data date, string duracao, string origem, string destino ,Passageiro passageiro,Hora partida) {
     this -> numVoo = numVoo;
     this -> duracao = duracao;
     this -> origem = origem;
     this -> destino = destino;
+    this->partida = partida;
 }
 
 string Voo::getNumVoo() {
     return this-> numVoo;
+}
+
+string Voo::getData() {
+    return this->data.toString();
+}
+
+string Voo::getPartida() {
+    return this->partida.toString();
 }
 
 string Voo::getDuracao() {
@@ -30,6 +39,14 @@ string Voo::getOrigem() {
 
 string Voo::getDestino() {
     return this-> destino;
+}
+
+void Voo::setData(Data data) {
+    this->data = data;
+}
+
+void Voo::setPartida(Hora hora1) {
+    this->partida = hora1;
 }
 
 list<Passageiro> Voo::getPassageiro() {

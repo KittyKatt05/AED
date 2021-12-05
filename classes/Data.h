@@ -9,13 +9,13 @@
 using namespace std;
 
 class Data {
-    int day{};
-    int month{};
-    int year{};
+    int dia{};
+    int mes{};
+    int ano{};
 public:
 
     Data();
-    Data(int day, int month, int year);
+    Data(int dia, int mes, int ano);
 
     string toString() const;
 
@@ -23,15 +23,16 @@ public:
     int getMonth() const;
     int getYear() const;
 
-    void setDay(int day, int month);
-    void setMonth(int month);
-    void setYear(int year);
+    void setDay(int dia, int mes);
+    void setMonth(int mes);
+    void setYear(int ano);
 
-    bool operator<(Data date) const;
-    bool operator==(Data date) const;
-    bool operator<=(Data date) const;
-    bool operator>(Data date) const;
-    bool operator>=(Data date) const;
+    //Todas as comparações de data1 consideram que maior é depois
+    bool operator<(Data data1) const;
+    bool operator==(Data data1) const;
+    bool operator<=(Data data1) const;
+    bool operator>(Data data1) const;
+    bool operator>=(Data data1) const;
 };
 
 
