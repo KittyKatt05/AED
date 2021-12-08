@@ -11,16 +11,17 @@ enum TipoDeServico{MANUTENCAO, LIMPEZA};
 class Manutencao{
     int id;
     Data data;
-    TipoDeServico TypeService;
+    TipoDeServico tipoServico;
     string responsible;
-
 public:
     Manutencao();
-    Manutencao(int id, string responsible);
+    Manutencao(int id, string responsible, Data data, TipoDeServico tipo);
     int getId();
+    Data getData();
     string getResponsavel();
     TipoDeServico getTipoDeServico();
     void setId(int id);
+    void setData(Data data1);
     void setResponsavel(string responsible);
     void setTipoDeServico(TipoDeServico Type_Service);
     bool operator <(const Manutencao& manutencao1);

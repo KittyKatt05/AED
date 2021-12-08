@@ -7,9 +7,11 @@ Manutencao::Manutencao() {
     responsible = 'null';
 }
 
-Manutencao::Manutencao(int id, string responsible) {
+Manutencao::Manutencao(int id, string responsible, Data data, TipoDeServico tipo) {
     this-> id = id;
     this-> responsible = responsible;
+    this->data = data;
+    this->tipoServico = tipo;
 }
 
 int Manutencao::getId() {
@@ -21,7 +23,7 @@ string Manutencao::getResponsavel() {
 }
 
 TipoDeServico Manutencao::getTipoDeServico() {
-    return this-> TypeService;
+    return this-> tipoServico;
 }
 
 void Manutencao::setId(int id) {
@@ -33,7 +35,7 @@ void Manutencao::setResponsavel(string responsible) {
 }
 
 void Manutencao::setTipoDeServico(TipoDeServico Type_Service) {
-    this-> TypeService = Type_Service;
+    this-> tipoServico = Type_Service;
 }
 
 bool Manutencao::operator<(const Manutencao& manutencao1) {
@@ -54,4 +56,12 @@ bool Manutencao::operator>(const Manutencao& manutencao1) {
 
 bool Manutencao::operator>=(const Manutencao& manutencao1) {
     return this->data.operator>=(manutencao1.data);
+}
+
+Data Manutencao::getData() {
+    return this->data;
+}
+
+void Manutencao::setData(Data data1) {
+    this->data = data1;
 }

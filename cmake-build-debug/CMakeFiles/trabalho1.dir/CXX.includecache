@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-H:/Ambiente de trabalho/Git/AED/classes/Aeroporto.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aeroporto.cpp
 Aeroporto.h
-H:/Ambiente de trabalho/Git/AED/classes/Aeroporto.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aeroporto.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Aeroporto.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aeroporto.h
 string
 -
 
-H:/Ambiente de trabalho/Git/AED/classes/Aviao.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aviao.cpp
 Aviao.h
-H:/Ambiente de trabalho/Git/AED/classes/Aviao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aviao.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Aviao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aviao.h
 Bagagem.h
-H:/Ambiente de trabalho/Git/AED/classes/Bagagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Bagagem.h
 Voo.h
-H:/Ambiente de trabalho/Git/AED/classes/Voo.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.h
 Manutencao.h
-H:/Ambiente de trabalho/Git/AED/classes/Manutencao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.h
 string
 -
 list
@@ -32,99 +32,125 @@ list
 queue
 -
 
-H:/Ambiente de trabalho/Git/AED/classes/Bagagem.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Bagagem.cpp
 Bagagem.h
-H:/Ambiente de trabalho/Git/AED/classes/Bagagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Bagagem.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Bagagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Bagagem.h
 Passageiro.h
-H:/Ambiente de trabalho/Git/AED/classes/Passageiro.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Carrinho.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carrinho.cpp
 string
 -
 Carrinho.h
-H:/Ambiente de trabalho/Git/AED/classes/Carrinho.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carrinho.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Carrinho.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carrinho.h
 string
 -
 list
 -
 Carruagem.h
-H:/Ambiente de trabalho/Git/AED/classes/Carruagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carruagem.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Carruagem.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carruagem.cpp
 Carruagem.h
-H:/Ambiente de trabalho/Git/AED/classes/Carruagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carruagem.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Carruagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Carruagem.h
 stack
 -
 list
 -
 
-H:/Ambiente de trabalho/Git/AED/classes/Data.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.cpp
 Data.h
-H:/Ambiente de trabalho/Git/AED/classes/Data.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Data.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.h
 string
 -
 
-H:/Ambiente de trabalho/Git/AED/classes/Hora.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Hora.cpp
 Hora.h
-H:/Ambiente de trabalho/Git/AED/classes/Hora.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Hora.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Hora.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Hora.h
 string
 -
 
-H:/Ambiente de trabalho/Git/AED/classes/LocalDeTransporte.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/LocalDeTransporte.cpp
 LocalDeTransporte.h
-H:/Ambiente de trabalho/Git/AED/classes/LocalDeTransporte.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/LocalDeTransporte.h
 
-H:/Ambiente de trabalho/Git/AED/classes/LocalDeTransporte.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/LocalDeTransporte.h
 Hora.h
-H:/Ambiente de trabalho/Git/AED/classes/Hora.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Hora.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Manutencao.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.cpp
 Manutencao.h
-H:/Ambiente de trabalho/Git/AED/classes/Manutencao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Manutencao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.h
 string
 -
 Data.h
-H:/Ambiente de trabalho/Git/AED/classes/Data.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Passageiro.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.cpp
 Passageiro.h
-H:/Ambiente de trabalho/Git/AED/classes/Passageiro.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Passageiro.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.h
 Bagagem.h
-H:/Ambiente de trabalho/Git/AED/classes/Bagagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Bagagem.h
 string
 -
 
-H:/Ambiente de trabalho/Git/AED/classes/Voo.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.cpp
 Voo.h
-H:/Ambiente de trabalho/Git/AED/classes/Voo.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.h
 
-H:/Ambiente de trabalho/Git/AED/classes/Voo.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.h
 string
 -
 Passageiro.h
-H:/Ambiente de trabalho/Git/AED/classes/Passageiro.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.h
 Data.h
-H:/Ambiente de trabalho/Git/AED/classes/Data.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.h
 Hora.h
-H:/Ambiente de trabalho/Git/AED/classes/Hora.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Hora.h
 list
 -
 
-H:/Ambiente de trabalho/Git/AED/main.cpp
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/funcoes/checkin.cpp
+checkin.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/funcoes/checkin.h
+
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/funcoes/checkin.h
+stack
+-
+list
+-
+
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/main.cpp
 iostream
 -
+list
+-
+queue
+-
+classes/Manutencao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Manutencao.h
+classes/Aviao.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Aviao.h
+classes/Voo.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Voo.h
+classes/Data.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Data.h
+classes/Passageiro.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Passageiro.h
+classes/Bagagem.h
+/cygdrive/c/Users/ZLAmo/OneDrive/Documentos/GitHub/AED/classes/Bagagem.h
 

@@ -7,15 +7,11 @@
 using namespace std;
 
 Aviao::Aviao(){}
-Aviao::Aviao(string matricula, string tipo, double capacidade, list<Voo> planoDeVoo,
-     queue<Manutencao> cronogramaManutencao, list<Manutencao> manutencaoFeita, list<Bagagem> bagagem){
-    this->matricula = matricula;
-    this->tipo = tipo;
-    this->capacidade = capacidade;
-    this->planoDeVoo = planoDeVoo;
-    this->cronogramaManutencao = cronogramaManutencao;
-    this->manutencaoFeita = manutencaoFeita;
-    this->bagagem = bagagem;
+Aviao::Aviao(string matricula1, string tipo1, double capacidade1, list<Voo> planoDeVoo1){
+    this->matricula = matricula1;
+    this->tipo = tipo1;
+    this->capacidade = capacidade1;
+    this->planoDeVoo = planoDeVoo1;
 
 }
 
@@ -35,24 +31,24 @@ list<Bagagem> Aviao::getBagagem(){
     return this->bagagem;
 }
 
-void Aviao::setMatricula(string matricula){
-    this->matricula = matricula;
+void Aviao::setMatricula(string matricula1){
+    this->matricula = matricula1;
 }
 
-void Aviao::setTipo(string tipo){
-    this->tipo = tipo;
+void Aviao::setTipo(string tipo1){
+    this->tipo = tipo1;
 }
 
-void Aviao::setCapacidade(double capacidade){
-    this->capacidade = capacidade;
+void Aviao::setCapacidade(double capacidade1){
+    this->capacidade = capacidade1;
 }
 
-void Aviao::setBagagem(list<Bagagem> Bagagem){
+void Aviao::setBagagem(list<Bagagem> bagagem1){
     this->bagagem = bagagem;
 }
 
-void Aviao::addBagagem(Bagagem bagagem){
-    this->bagagem.push_back(bagagem);
+void Aviao::addBagagem(Bagagem bagagem1){
+    this->bagagem.push_back(bagagem1);
 }
 
 list<Voo> Aviao::getPlanoDeVoo() {
@@ -67,26 +63,35 @@ list<Manutencao> Aviao::getManutencaoFeita() {
     return this->manutencaoFeita;
 }
 
-void Aviao::setPlanoDeVoo(list<Voo> planoDeVoo) {
-    this->planoDeVoo = planoDeVoo;
+void Aviao::setPlanoDeVoo(list<Voo> planoDeVoo1) {
+    this->planoDeVoo = planoDeVoo1;
 }
 
-void Aviao::setCronogramaManutencao(queue<Manutencao> cronogramaManutencao) {
-    this->cronogramaManutencao = cronogramaManutencao;
+void Aviao::setCronogramaManutencao(queue<Manutencao> cronogramaManutencao1) {
+    this->cronogramaManutencao = cronogramaManutencao1;
 }
 
-void Aviao::setManutencaoFeita(list<Manutencao> manutencaoFeita) {
-    this->manutencaoFeita = manutencaoFeita;
+void Aviao::setManutencaoFeita(list<Manutencao> manutencaoFeita1) {
+    this->manutencaoFeita = manutencaoFeita1;
 }
 
-void Aviao::addVoo(Voo voo) {
-    this->planoDeVoo.push_back(voo);
+void Aviao::addVoo(Voo voo1) {
+    this->planoDeVoo.push_back(voo1);
 }
 
-void Aviao::addManutencao(Manutencao manutencao) {
-    if( manutencao.operator>(this->cronogramaManutencao.back())){
-        this->cronogramaManutencao.push(manutencao);
+void Aviao::addManutencao(Manutencao manutencao1) {
+    if( manutencao1.operator>(this->cronogramaManutencao.back())){
+        this->cronogramaManutencao.push(manutencao1);
     }else{
         //não adiciona porque seria no mesmo dia ou antes da última manutenção adicionada
+    }
+}
+
+void Aviao::fazerManutencao() {
+    if(not(this->cronogramaManutencao.empty())) {
+        this->manutencaoFeita.push_back(this->cronogramaManutencao.front());
+        this->cronogramaManutencao.pop();
+    }else{
+        // não tem nenhuma manutenção no cronograma
     }
 }

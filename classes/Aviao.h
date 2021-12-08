@@ -26,8 +26,7 @@ list<Bagagem> bagagem;
 
 public:
     Aviao();
-    Aviao(string matricula, string tipo, double capacidade, list<Voo> planoDeVoo,
-          queue<Manutencao> cronogramaManutencao, list<Manutencao> manutencaoFeita, list<Bagagem> bagagem);
+    Aviao(string matricula1, string tipo1, double capacidade1, list<Voo> planoDeVoo1);
 
     string getMatricula();
     string getTipo();
@@ -38,19 +37,20 @@ public:
     queue<Manutencao> getCronogramaManutencao();
     list<Manutencao> getManutencaoFeita();
 
-    void setMatricula(string matricula);
-    void setTipo(string tipo);
-    void setCapacidade(double capacidade);
-    void setBagagem(list<Bagagem> bagagem);
+    void setMatricula(string matricula1);
+    void setTipo(string tipo1);
+    void setCapacidade(double capacidade1);
+    void setBagagem(list<Bagagem> bagagem1);
 
-    void setPlanoDeVoo(list<Voo> planoDeVoo);
-    void setCronogramaManutencao(queue<Manutencao> cronogramaManutencao);
-    void setManutencaoFeita(list<Manutencao> manutencaoFeita);
+    void setPlanoDeVoo(list<Voo> planoDeVoo1);
+    void setCronogramaManutencao(queue<Manutencao> cronogramaManutencao1);
+    void setManutencaoFeita(list<Manutencao> manutencaoFeita1);
 
-    void addVoo(Voo voo);
-    void addManutencao(Manutencao manutencao);
+    void addVoo(Voo voo1);
+    void addManutencao(Manutencao manutencao1);
+    void addBagagem(Bagagem bagagem1);
 
-   void addBagagem(Bagagem bagagem);
+    void fazerManutencao();
 };
 
 
