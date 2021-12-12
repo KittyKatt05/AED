@@ -15,18 +15,21 @@ class Passageiro{
     string nome;
     Bagagem bagagem;
     TipoTicket tipoTicket;
+    bool checkinAuto;
 
     public:
         Passageiro();
-        Passageiro(string nome, Bagagem bagagem, TipoTicket tipoTicket);
+        Passageiro(string nome, Bagagem bagagem, TipoTicket tipoTicket, bool checkinAuto);
 
         string getNome();
         Bagagem getBagagem();
         TipoTicket getTipoTicket();
+        bool getCheckinAuto();
 
         void setNome(string nome);
         void setBagagem(Bagagem bagagem);
         void setTipoTicket(TipoTicket tipoTicket);
+        void setCheckinAuto(bool checkinAuto);
 };
 
 #endif // PASSAGEIRO_H
