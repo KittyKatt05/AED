@@ -28,3 +28,11 @@ void Carrinho::setCapacidade(int Capacidade) {
     this-> Capacidade = Capacidade;
 }
 
+void Carrinho::criarQueueTapeteRolante() {
+
+}
+
+queue <Bagagem> Carrinho::getTapeteRolante() {
+    return tapeteRolante;
+}
+

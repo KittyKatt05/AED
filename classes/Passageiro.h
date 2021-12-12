@@ -30,6 +30,8 @@ class Passageiro{
         void setBagagem(Bagagem bagagem);
         void setTipoTicket(TipoTicket tipoTicket);
         void setCheckinAuto(bool checkinAuto);
+
+        bool verificarCheckin(Passageiro p);
 };
 
 #endif // PASSAGEIRO_H

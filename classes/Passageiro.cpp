@@ -45,3 +45,10 @@ void Passageiro::setTipoTicket(TipoTicket tipoTicket){
 void Passageiro::setCheckinAuto(bool checkinAuto) {
     this->checkinAuto = checkinAuto;
 }
+
+bool Passageiro::verificarCheckin(Passageiro p) {
+    if(p.getCheckinAuto()){
+        return true;
+    }
+    return false;
+}

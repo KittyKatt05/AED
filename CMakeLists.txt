@@ -7,4 +7,4 @@ add_executable(trabalho1 main.cpp classes/Carruagem.cpp classes/Carruagem.h clas
         classes/Bagagem.cpp classes/Bagagem.h classes/Aviao.cpp classes/Aviao.h classes/Passageiro.cpp classes/Passageiro.h
         classes/LocalDeTransporte.cpp classes/LocalDeTransporte.h classes/Data.cpp classes/Data.h classes/Manutencao.cpp
         classes/Manutencao.h classes/Voo.cpp classes/Voo.h classes/Hora.cpp classes/Hora.h classes/Carrinho.h
-        classes/Carrinho.cpp funcoes/checkin.cpp funcoes/checkin.h )
+        classes/Carrinho.cpp)

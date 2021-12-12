@@ -5,11 +5,14 @@ using namespace std;
 
 #include <string>
 #include <list>
+#include <queue>
 #include "Carruagem.h"
+#include "Bagagem.h"
 
 class Carrinho{
     int numCarruagens;
     int Capacidade;
+    queue<Bagagem> tapeteRolante;
     //list<Carruagem> Carruagens;
 
 public:
@@ -19,6 +22,8 @@ public:
     int getCapacidade();
     void setNumCarruagens(int numCarruagens);
     void setCapacidade (int Capacidade);
+    queue<Bagagem> getTapeteRolante();
+    void criarQueueTapeteRolante();
 
 };
 #endif //TRABALHO1_CAR_H
