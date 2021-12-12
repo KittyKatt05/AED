@@ -6,9 +6,22 @@
 #define TRABALHO1_CHECKIN_H
 # include <stack>
 #include <list>
+#include <queue>
+#include "../classes/Passageiro.h"
+
 using namespace std;
 
+class Checkin {
+    Passageiro passageiro;
+    queue<Bagagem> tapeteRolante;
 
+
+
+public:
+    queue<Bagagem> getTapeteRolante();
+    bool verificarCheckin(Passageiro p);
+    void criarQueueTapeteRolante();
+};
 
 
 
