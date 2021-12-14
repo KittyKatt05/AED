@@ -12,6 +12,7 @@ using namespace std;
 enum TipoTicket{ECONOMICO, PRIMEIRA_CLASSE};
 
 class Passageiro{
+public:
     string nome;
     Bagagem bagagem;
     TipoTicket tipoTicket;

@@ -72,3 +72,30 @@ void Voo::setDestino(string destino) {
 void Voo::setPassageiro(list<Passageiro> passageiro) {
     this-> passageiro = passageiro;
 }
+
+void Voo::addPassageirotoLista(Passageiro passageiro1) {
+    passageiro.push_back(passageiro1);
+}
+
+queue<Bagagem> Voo::getTapeteRolante() {
+    return tapeteRolante;
+}
+
+void Voo::addToTapeteRolante(Bagagem bagagem) {
+    tapeteRolante.push(bagagem);
+}
+
+void Voo::setTapeteRolante(queue<Bagagem> tapeteRolante1) {
+    this->tapeteRolante = tapeteRolante1;
+}
+
+void Voo::createTapeteRolante() {
+    auto it = passageiro.begin();
+    while(it != passageiro.end()){
+        if(it->checkinAuto){
+            addToTapeteRolante((*it).getBagagem());
+        }
+        it++;
+    }
+}
+

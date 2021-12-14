@@ -2,9 +2,12 @@
 #define TRABALHO1_FLIGHT_H
 #include <string>
 #include "Passageiro.h"
+#include <queue>
 #include "Data.h"
 #include "Hora.h"
 #include <list>
+#include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -15,7 +18,10 @@ class Voo{
     string duracao;
     string origem;
     string destino;
+public:
     list<Passageiro> passageiro;
+    queue<Bagagem> tapeteRolante;
+
 
 public:
     Voo();
@@ -36,5 +42,15 @@ public:
     void setOrigem(string Origem);
     void setDestino(string Destino);
     void setPassageiro(list<Passageiro> passageiro);
+
+    void addPassageirotoLista(Passageiro passageiro1);
+
+    queue<Bagagem> getTapeteRolante();
+    void setTapeteRolante(queue<Bagagem> tapeteRolante1);
+    void addToTapeteRolante(Bagagem bagagem);
+    void createTapeteRolante();
+    void printToFileTapeteRolante();
+
+
 };
 #endif //TRABALHO1_FLIGHT_H

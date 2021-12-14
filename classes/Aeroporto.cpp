@@ -3,6 +3,7 @@
 //
 
 #include "Aeroporto.h"
+
 using namespace std;
 
 Aeroporto::Aeroporto() {
@@ -29,6 +30,10 @@ string Aeroporto::getPais() {
     return pais;
 }
 
+list<Aviao> Aeroporto::getListaAvioes() {
+    return listaAvioes;
+}
+
 void Aeroporto::setCidade(const string cidade) {
     this->cidade = cidade;
 }
@@ -40,4 +45,14 @@ void Aeroporto::setNome(const string nome) {
 void Aeroporto::setPais(string pais) {
     this->pais = pais;
 }
+
+void Aeroporto::setListaAvioes(list<Aviao> listaAvioes) {
+    this->listaAvioes = listaAvioes;
+}
+
+void Aeroporto::addAviaoToListaAvioes(Aviao aviao) {
+    listaAvioes.push_back(aviao);
+}
+
+
 
