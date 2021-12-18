@@ -2,14 +2,16 @@
 
 using namespace std;
 
-Voo::Voo(const char string1[3], Data data1, const char string2[3], const char string3[6], const char string4[8],
-         Passageiro passageiro1, Hora hora) {
-    numVoo = 'null';
-    duracao = 'null';
-    origem = 'null';
-    destino = 'null';
-}
-
+/**
+ * Cria um objeto do tipo Voo com os atributos passados por parâmetro.
+ * @param numVoo
+ * @param date
+ * @param duracao
+ * @param origem
+ * @param destino
+ * @param passageiro
+ * @param partida
+ */
 Voo::Voo(string numVoo,Data date, string duracao, string origem, string destino ,Passageiro passageiro,Hora partida) {
     this -> numVoo = numVoo;
     this -> duracao = duracao;
@@ -18,54 +20,106 @@ Voo::Voo(string numVoo,Data date, string duracao, string origem, string destino 
     this->partida = partida;
 }
 
+/**
+ * Permite aceder ao número do Voo.
+ * @return numVoo
+ */
 string Voo::getNumVoo() {
     return this-> numVoo;
 }
 
+/**
+ * Permite aceder à data do Voo.
+ * @return data
+ */
 string Voo::getData() {
     return this->data.toString();
 }
 
+/**
+ * Permite aceder à partida do Voo.
+ * @return partida
+ */
 string Voo::getPartida() {
     return this->partida.toString();
 }
 
+/**
+ * Permite aceder à duração do Voo.
+ * @return duracao
+ */
 string Voo::getDuracao() {
     return this-> duracao;
 }
 
+/**
+ * Permite aceder à origem do Voo.
+ * @return origem
+ */
 string Voo::getOrigem() {
     return this-> origem;
 }
 
+/**
+ * Permite aceder ao destino do Voo.
+ * @return destino
+ */
 string Voo::getDestino() {
     return this-> destino;
 }
 
+/**
+ * Permite modificar a data do Voo.
+ * @param data
+ */
 void Voo::setData(Data data) {
     this->data = data;
 }
 
+/**
+ * Permite modificar a hora de partida do Voo.
+ * @param hora1
+ */
 void Voo::setPartida(Hora hora1) {
     this->partida = hora1;
 }
 
+/**
+ * Permite aceder à lista de passageiro do voo.
+ * @return passageiro
+ */
 list<Passageiro> Voo::getPassageiro() {
     return this-> passageiro;
 }
 
+/**
+ * Permite modificar o número do Voo.
+ * @param numVoo
+ */
 void Voo::setNumVoo(string numVoo) {
     this-> numVoo = numVoo;
 }
 
+/**
+ * Permite modificar a duração do Voo.
+ * @param duracao
+ */
 void Voo::setDuracao(string duracao) {
     this-> duracao = duracao;
 }
 
+/**
+ * Permite modificar a origem do Voo.
+ * @param origem
+ */
 void Voo::setOrigem(string origem) {
     this-> origem = origem;
 }
 
+/**
+ * Permite modificar o destino do Voo.
+ * @param destino
+ */
 void Voo::setDestino(string destino) {
     this-> destino = destino;
 }
