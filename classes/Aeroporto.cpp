@@ -51,6 +51,10 @@ string Aeroporto::getPais() {
     return pais;
 }
 
+/**
+ * Permite aceder à lista de aviões.
+ * @return listaAVioes
+ */
 list<Aviao> Aeroporto::getListaAvioes() {
     return listaAvioes;
 }
@@ -79,10 +83,18 @@ void Aeroporto::setPais(string pais) {
     this->pais = pais;
 }
 
+/**
+ * Permite modificar a lista de aviões, sendo substituida pela lista passada por parâmetro
+ * @param listaAvioes
+ */
 void Aeroporto::setListaAvioes(list<Aviao> listaAvioes) {
     this->listaAvioes = listaAvioes;
 }
 
+/**
+ * Permite adicionar um novo avião à lista de aviões
+ * @param aviao
+ */
 void Aeroporto::addAviaoToListaAvioes(Aviao aviao) {
     listaAvioes.push_back(aviao);
 }
