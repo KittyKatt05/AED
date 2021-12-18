@@ -2,7 +2,8 @@
 
 using namespace std;
 
-Voo::Voo(){
+Voo::Voo(const char string1[3], Data data1, const char string2[3], const char string3[6], const char string4[8],
+         Passageiro passageiro1, Hora hora) {
     numVoo = 'null';
     duracao = 'null';
     origem = 'null';
@@ -77,6 +78,7 @@ void Voo::addPassageirotoLista(Passageiro passageiro1) {
     passageiro.push_back(passageiro1);
 }
 
+//-----------------------------Tapete Rolante---------------------------------------------------------------------------
 queue<Bagagem> Voo::getTapeteRolante() {
     return tapeteRolante;
 }
@@ -89,6 +91,10 @@ void Voo::setTapeteRolante(queue<Bagagem> tapeteRolante1) {
     this->tapeteRolante = tapeteRolante1;
 }
 
+void Voo::removeFromTapeteRolante() {
+    tapeteRolante.pop();
+}
+
 void Voo::createTapeteRolante() {
     auto it = passageiro.begin();
     while(it != passageiro.end()){
@@ -99,3 +105,88 @@ void Voo::createTapeteRolante() {
     }
 }
 
+//---------------------------------Stacks da Carruagem------------------------------------------------------------------
+
+stack<Bagagem> Voo::getPilhaCarruagem() {
+    return pilhaCarruagem;
+}
+
+void Voo::setPilhaCarruagem(stack<Bagagem> pilhaCarruagem) {
+    this->pilhaCarruagem = pilhaCarruagem;
+}
+
+void Voo::addToPilha(Bagagem bagagem) {
+    pilhaCarruagem.push(bagagem);
+}
+
+void Voo::removeFromPilha() {
+    pilhaCarruagem.pop();
+}
+
+void Voo::clearPilha(){
+    while(!pilhaCarruagem.empty()){
+        pilhaCarruagem.pop();
+    }
+}
+
+void Voo::createPilha() {
+    clearPilha();
+    while(pilhaCarruagem.size()< maxPorPilha){
+        addToPilha(tapeteRolante.front());
+        removeFromTapeteRolante();
+    }
+}
+
+list<stack<Bagagem>> Voo::getCarruagem() {
+    return carruagem;
+}
+
+void Voo::clearCarruagem() {
+    carruagem.clear();
+}
+
+void Voo::addToCarruagem(stack<Bagagem> stackBagagem) {
+    carruagem.push_back(stackBagagem);
+}
+
+void Voo::createCarruagem() {
+    clearCarruagem();
+    while(carruagem.size() < maxPorCarruagem){
+        createPilha();
+        addToCarruagem(pilhaCarruagem);
+    }
+}
+
+void Voo::addToCarrinho(list<stack<Bagagem>> carruagemS) {
+    carrinho.push_back(carruagemS);
+}
+
+void Voo::createCarrinho(){
+    while(!tapeteRolante.empty()){
+        createCarruagem();
+        addToCarrinho(carruagem);
+    }
+}
+
+//----------------------------------------------------Bagagens para aviao-----------------------------------------------
+
+stack<Bagagem> Voo::getStackAviao() {
+    return bagagemAviao;
+}
+
+void Voo::createStackAviao() {
+    auto it = carrinho.begin();
+    while(it != carrinho.end()){
+        addStackAviao(it->front().top());
+        it = --carrinho.erase(it);
+        it++;
+    }
+}
+
+void Voo::addStackAviao(Bagagem bagagem) {
+    bagagemAviao.push(bagagem);
+}
+
+void Voo::removeStackAviao() {
+    bagagemAviao.pop();
+}

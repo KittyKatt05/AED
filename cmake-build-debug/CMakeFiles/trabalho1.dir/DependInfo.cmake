@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Aeroporto.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj"
   "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Aviao.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Aviao.cpp.obj"
   "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Bagagem.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Bagagem.cpp.obj"
+  "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Bilhete.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Bilhete.cpp.obj"
   "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Carrinho.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Carrinho.cpp.obj"
   "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Carruagem.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Carruagem.cpp.obj"
   "D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Data.cpp" "D:/FEUP/2º ano/1o semestre/AED/trabalho1/cmake-build-debug/CMakeFiles/trabalho1.dir/classes/Data.cpp.obj"

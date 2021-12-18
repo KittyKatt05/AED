@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/trabalho1.dir/classes/Aeroporto.cpp.obj"
   "CMakeFiles/trabalho1.dir/classes/Aviao.cpp.obj"
   "CMakeFiles/trabalho1.dir/classes/Bagagem.cpp.obj"
+  "CMakeFiles/trabalho1.dir/classes/Bilhete.cpp.obj"
   "CMakeFiles/trabalho1.dir/classes/Carrinho.cpp.obj"
   "CMakeFiles/trabalho1.dir/classes/Carruagem.cpp.obj"
   "CMakeFiles/trabalho1.dir/classes/Data.cpp.obj"

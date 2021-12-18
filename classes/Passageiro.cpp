@@ -7,10 +7,10 @@
 using namespace std;
 
 Passageiro::Passageiro(){}
-Passageiro::Passageiro(string nome, Bagagem bagagem, TipoTicket tipoTicket, bool checkinAuto){
+Passageiro::Passageiro(string nome, Bagagem bagagem, Bilhete bilhete, bool checkinAuto){
     this->nome = nome;
     this->bagagem = bagagem;
-    this->tipoTicket = tipoTicket;
+    this->bilhete = bilhete;
     this->checkinAuto = checkinAuto;
 }
 
@@ -22,8 +22,8 @@ Bagagem Passageiro::getBagagem(){
     return this->bagagem;
 }
 
-TipoTicket Passageiro::getTipoTicket(){
-    return this->tipoTicket;
+Bilhete Passageiro::getBilhete(){
+    return this->bilhete;
 }
 
 bool Passageiro::getCheckinAuto() {
@@ -38,8 +38,8 @@ void Passageiro::setBagagem(Bagagem bagagem){
     this->bagagem = bagagem;
 }
 
-void Passageiro::setTipoTicket(TipoTicket tipoTicket){
-    this->tipoTicket = tipoTicket;
+void Passageiro::setBilhete(Bilhete bilhete1){
+    this->bilhete = bilhete1;
 }
 
 void Passageiro::setCheckinAuto(bool checkinAuto) {

@@ -98,6 +98,12 @@
 		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Bagagem.h">
 			<Option target="trabalho1"/>
 		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Bilhete.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Bilhete.h">
+			<Option target="trabalho1"/>
+		</Unit>
 		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Carrinho.cpp">
 			<Option target="trabalho1"/>
 		</Unit>

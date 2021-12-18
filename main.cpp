@@ -19,5 +19,9 @@ int main() {
     Manutencao manutencao1 = Manutencao(1,"alguem", Data(1,2,2003),TipoDeServico(MANUTENCAO));
     aviao1.addManutencao(manutencao1);
     aviao1.fazerManutencao();
+
+
+
+//    Passageiro p2 = new Passageiro("Ana", new Bagagem(12, p2), new Bilhete(p2, new Voo("12", data, "45", "Dubai", "Londres", p2, Hora(6,12))), true);
     return 0;
 }

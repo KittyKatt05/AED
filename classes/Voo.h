@@ -3,6 +3,7 @@
 #include <string>
 #include "Passageiro.h"
 #include <queue>
+#include <stack>
 #include "Data.h"
 #include "Hora.h"
 #include <list>
@@ -18,13 +19,19 @@ class Voo{
     string duracao;
     string origem;
     string destino;
+    const maxPorPilha = 5;
+    const maxPorCarruagem = 3;
 public:
     list<Passageiro> passageiro;
     queue<Bagagem> tapeteRolante;
+    stack<Bagagem> pilhaCarruagem;
+    list<stack<Bagagem>> carruagem;
+    list<list<stack<Bagagem>>> carrinho;
+    stack<Bagagem> bagagemAviao;
 
 
 public:
-    Voo();
+
     Voo(string numVoo,Data data, string duracao, string origem, string destino ,Passageiro passageiro,Hora partida);
 
     string getNumVoo();
@@ -49,7 +56,28 @@ public:
     void setTapeteRolante(queue<Bagagem> tapeteRolante1);
     void addToTapeteRolante(Bagagem bagagem);
     void createTapeteRolante();
+    void removeFromTapeteRolante();
     void printToFileTapeteRolante();
+
+    stack<Bagagem> getPilhaCarruagem();
+    void setPilhaCarruagem(stack<Bagagem> pilhaCarruagem);
+    void addToPilha(Bagagem bagagem);
+    void createPilha();
+    void clearPilha();
+    void removeFromPilha();
+
+    list<stack<Bagagem>> getCarruagem();
+    void addToCarruagem(stack<Bagagem> stackBagagem);
+    void createCarruagem();
+    void clearCarruagem();
+
+    void addToCarrinho(list<stack<Bagagem>> carruagem);
+    void createCarrinho();
+
+    stack<Bagagem> getStackAviao();
+    void createStackAviao();
+    void addStackAviao(Bagagem bagagem);
+    void removeStackAviao();
 
 
 };

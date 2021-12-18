@@ -200,6 +200,30 @@ classes/Bagagem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Bagagem.cpp.s
 .PHONY : classes/Bagagem.cpp.s
 
+classes/Bilhete.obj: classes/Bilhete.cpp.obj
+.PHONY : classes/Bilhete.obj
+
+# target to build an object file
+classes/Bilhete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Bilhete.cpp.obj
+.PHONY : classes/Bilhete.cpp.obj
+
+classes/Bilhete.i: classes/Bilhete.cpp.i
+.PHONY : classes/Bilhete.i
+
+# target to preprocess a source file
+classes/Bilhete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Bilhete.cpp.i
+.PHONY : classes/Bilhete.cpp.i
+
+classes/Bilhete.s: classes/Bilhete.cpp.s
+.PHONY : classes/Bilhete.s
+
+# target to generate assembly for a file
+classes/Bilhete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Bilhete.cpp.s
+.PHONY : classes/Bilhete.cpp.s
+
 classes/Carrinho.obj: classes/Carrinho.cpp.obj
 .PHONY : classes/Carrinho.obj
 
@@ -434,6 +458,9 @@ help:
 	@echo ... classes/Bagagem.obj
 	@echo ... classes/Bagagem.i
 	@echo ... classes/Bagagem.s
+	@echo ... classes/Bilhete.obj
+	@echo ... classes/Bilhete.i
+	@echo ... classes/Bilhete.s
 	@echo ... classes/Carrinho.obj
 	@echo ... classes/Carrinho.i
 	@echo ... classes/Carrinho.s

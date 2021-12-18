@@ -6,6 +6,7 @@
 #define PASSAGEIRO_H
 
 #include "Bagagem.h"
+#include "Bilhete.h"
 #include <string>
 using namespace std;
 
@@ -15,21 +16,22 @@ class Passageiro{
 public:
     string nome;
     Bagagem bagagem;
-    TipoTicket tipoTicket;
+//    TipoTicket tipoTicket;
+    Bilhete bilhete;
     bool checkinAuto;
 
     public:
         Passageiro();
-        Passageiro(string nome, Bagagem bagagem, TipoTicket tipoTicket, bool checkinAuto);
+        Passageiro(string nome, Bagagem bagagem, Bilhete bilhete, bool checkinAuto);
 
         string getNome();
         Bagagem getBagagem();
-        TipoTicket getTipoTicket();
+        Bilhete getBilhete();
         bool getCheckinAuto();
 
         void setNome(string nome);
         void setBagagem(Bagagem bagagem);
-        void setTipoTicket(TipoTicket tipoTicket);
+        void setBilhete(Bilhete bilhete1);
         void setCheckinAuto(bool checkinAuto);
 
         bool verificarCheckin(Passageiro p);
