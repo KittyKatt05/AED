@@ -128,6 +128,12 @@
 		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Hora.h">
 			<Option target="trabalho1"/>
 		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Listagens.cpp">
+			<Option target="trabalho1"/>
+		</Unit>
+		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/Listagens.h">
+			<Option target="trabalho1"/>
+		</Unit>
 		<Unit filename="D:/FEUP/2º ano/1o semestre/AED/trabalho1/classes/LocalDeTransporte.cpp">
 			<Option target="trabalho1"/>
 		</Unit>

@@ -320,6 +320,30 @@ classes/Hora.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Hora.cpp.s
 .PHONY : classes/Hora.cpp.s
 
+classes/Listagens.obj: classes/Listagens.cpp.obj
+.PHONY : classes/Listagens.obj
+
+# target to build an object file
+classes/Listagens.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Listagens.cpp.obj
+.PHONY : classes/Listagens.cpp.obj
+
+classes/Listagens.i: classes/Listagens.cpp.i
+.PHONY : classes/Listagens.i
+
+# target to preprocess a source file
+classes/Listagens.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Listagens.cpp.i
+.PHONY : classes/Listagens.cpp.i
+
+classes/Listagens.s: classes/Listagens.cpp.s
+.PHONY : classes/Listagens.s
+
+# target to generate assembly for a file
+classes/Listagens.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\trabalho1.dir\build.make CMakeFiles/trabalho1.dir/classes/Listagens.cpp.s
+.PHONY : classes/Listagens.cpp.s
+
 classes/LocalDeTransporte.obj: classes/LocalDeTransporte.cpp.obj
 .PHONY : classes/LocalDeTransporte.obj
 
@@ -473,6 +497,9 @@ help:
 	@echo ... classes/Hora.obj
 	@echo ... classes/Hora.i
 	@echo ... classes/Hora.s
+	@echo ... classes/Listagens.obj
+	@echo ... classes/Listagens.i
+	@echo ... classes/Listagens.s
 	@echo ... classes/LocalDeTransporte.obj
 	@echo ... classes/LocalDeTransporte.i
 	@echo ... classes/LocalDeTransporte.s
