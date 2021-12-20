@@ -12,11 +12,13 @@ using namespace std;
  * @param passageiro
  * @param partida
  */
-Voo::Voo(string numVoo,Data date, string duracao, string origem, string destino ,Passageiro passageiro,Hora partida) {
+Voo::Voo(string numVoo,Data date, string duracao, string origem, string destino ,list<Passageiro> passageiro,Hora partida) {
     this -> numVoo = numVoo;
+    this->data = date;
     this -> duracao = duracao;
     this -> origem = origem;
     this -> destino = destino;
+    this->passageiro = passageiro;
     this->partida = partida;
 }
 

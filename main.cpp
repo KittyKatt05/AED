@@ -7,21 +7,147 @@
 #include "classes/Data.h"
 #include "classes/Passageiro.h"
 #include "classes/Bagagem.h"
+#include "classes/Listagens.h"
+#include <string>
+
+void showSubMenu1();
+
+void subMenuCreate(Listagens listagens);
+
+void subMenuRead(Listagens listagens);
+
+void subMenuUpdate(Listagens listagens);
+
+void subMenuDelete(Listagens listagens);
+
+bool respostaExit();
+
+using namespace std;
 int main() {
+
+    //lista com 2/3 passageiros, cada um tem que ter uma bagagem, 2 com true e 1 false, imprimir os atributos do voo (data, nº, hora de partida, destino, duração, origem)
     std::cout << "Hello, World!" << std::endl;
-    list<Voo> planoDeVoo;
-    Data data = Data(1,2,2000);
-    Bagagem bagagem1 = Bagagem();
-    Passageiro passageiro1 = Passageiro();
-    Voo voo1 = Voo("57", data, "12", "Aqui", "la", passageiro1, Hora(5,15));
-    planoDeVoo.push_back(voo1);
-    Aviao aviao1 = Aviao("ab", "tipo", 15, planoDeVoo);
-    Manutencao manutencao1 = Manutencao(1,"alguem", Data(1,2,2003),TipoDeServico(MANUTENCAO));
-    aviao1.addManutencao(manutencao1);
-    aviao1.fazerManutencao();
+
+    Listagens listas;
+
+    char input;
+    bool sair = true;
+    do{
+        showSubMenu1();
+        cin >> input;
+
+        switch(input){
+            case '1':
+                subMenuCreate(listas);
+                break;
+            case '2':
+                subMenuRead(listas);
+                break;
+            case '3':
+                subMenuUpdate(listas);
+                break;
+            case '4':
+                subMenuDelete(listas);
+                break;
+            default:
+                cout << endl;
+        }
+
+        if(input == '0'){
+            sair = respostaExit();
+        }
+
+    }while(input!='0' and sair);
 
 
-
-//    Passageiro p2 = new Passageiro("Ana", new Bagagem(12, p2), new Bilhete(p2, new Voo("12", data, "45", "Dubai", "Londres", p2, Hora(6,12))), true);
     return 0;
+}
+
+
+
+void showSubMenu1(){
+
+    cout << "1. Create" << endl;
+    cout << "2. Read" << endl;
+    cout << "3. Update" << endl;
+    cout << "4. Delete" << endl << endl;
+    cout << "0. Exit" << endl;
+}
+
+void showSubMenuCRUD(){
+    cout << "1. Voo" << endl  << endl;
+    cout << "0. Exit" << endl;
+}
+
+bool respostaExit(){
+    char resposta;
+    cout << "Deseja Realmente sair? S-Sim/ N-Nao" << endl;
+    cin >> resposta;
+    if(resposta == 'S' or resposta == 's' or resposta == '1' or resposta == 'Y' or resposta == 'y'){
+        return false;
+    } else {
+        return true;
+    }
+}
+
+void subMenuCreate(Listagens listas){
+    char input;
+    do{
+        showSubMenuCRUD();
+        cin >> input;
+        switch (input) {
+            case '1':
+                createVoo(listas);
+                break;;
+        }
+    } while(input != '0');
+}
+
+
+
+// ---------------------------------------------- READ -----------------------------------------------------------------
+
+void subMenuRead(Listagens listas){
+    char input;
+    do{
+        showSubMenuCRUD();
+        cin >> input;
+        switch (input) {
+            case '1':
+                listas.airportDraw();
+                break;
+            case '2':
+                listas.drawAvioes();
+                break;
+            case '3':
+                listas.drawVoos();
+                break;
+        }
+    } while(input != '0');
+}
+
+
+// -------------------------------------------- UPDATE -----------------------------------------------------------------
+
+void subMenuUpdate(Listagens lista){
+    char input;
+    do{
+        showSubMenuCRUD();
+        cin >> input;
+    } while(input != '0');
+}
+
+
+// -------------------------------------------- DELETE -----------------------------------------------------------------
+
+void subMenuDelete(Listagens lista){
+    char input;
+    do{
+        showSubMenuCRUD();
+        cin >> input;
+    } while(input != '0');
+}
+
+void createVoo(Listagens lista){
+    lista.getListaVoos().front().
 }

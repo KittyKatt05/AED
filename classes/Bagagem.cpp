@@ -10,7 +10,7 @@ using namespace std;
  */
 Bagagem::Bagagem() {
     peso = 0;
-    passageiro = 'null';
+
 }
 
 /**
@@ -18,9 +18,9 @@ Bagagem::Bagagem() {
  * @param peso
  * @param passageiro1
  */
-Bagagem::Bagagem(unsigned peso, Passageiro passageiro1) {
+Bagagem::Bagagem(unsigned peso) {
     this->peso = peso;
-    this->passageiro = passageiro1;
+
 }
 
 /**
@@ -31,13 +31,7 @@ int Bagagem::getPeso() {
     return this->peso;
 }
 
-/**
- * Permite aceder ao passageiro da bagagem em questão.
- * @return passageiro
- */
-Passageiro Bagagem::getPassageiro() {
-    return this->passageiro;
-}
+
 
 /**
  * Permite modificar o peso da bagagem, passado por parâmetro.
@@ -47,11 +41,5 @@ void Bagagem::setPeso(unsigned int peso) {
     this->peso = peso;
 }
 
-/**
- * Permite modificar o passageiro da bagagem, sendo passado por parâmetro.
- * @param passageiro
- */
-void Bagagem::setPassageiro(Passageiro passageiro) {
-    this->passageiro = passageiro;
-}
+
 

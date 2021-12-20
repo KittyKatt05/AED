@@ -13,15 +13,15 @@
 using namespace std;
 
 class Voo{
+private:
     string numVoo;
     Data data;
     Hora partida;
     string duracao;
     string origem;
     string destino;
-    const maxPorPilha = 5;
-    const maxPorCarruagem = 3;
-public:
+    const int maxPorPilha = 5;
+    const int maxPorCarruagem = 3;
     list<Passageiro> passageiro;
     queue<Bagagem> tapeteRolante;
     stack<Bagagem> pilhaCarruagem;
@@ -32,7 +32,7 @@ public:
 
 public:
 
-    Voo(string numVoo,Data data, string duracao, string origem, string destino ,Passageiro passageiro,Hora partida);
+    Voo(string numVoo,Data data, string duracao, string origem, string destino ,list<Passageiro> passageiro,Hora partida);
 
     string getNumVoo();
     string getData();

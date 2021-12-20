@@ -6,19 +6,17 @@
 
 using namespace std;
 
-Passageiro::Passageiro(){}
+
 
 /**
  * Cria um novo objeto do tipo passageiro com os atributos passados por parâmetro.
  * @param nome
  * @param bagagem
- * @param bilhete
  * @param checkinAuto
  */
-Passageiro::Passageiro(string nome, Bagagem bagagem, Bilhete bilhete, bool checkinAuto){
+Passageiro::Passageiro(string nome, Bagagem bagagem, bool checkinAuto){
     this->nome = nome;
     this->bagagem = bagagem;
-    this->bilhete = bilhete;
     this->checkinAuto = checkinAuto;
 }
 
@@ -38,13 +36,7 @@ Bagagem Passageiro::getBagagem(){
     return this->bagagem;
 }
 
-/**
- * Permite aceder ao bilhete de um objeto do tipo passageiro.
- * @return bilhete
- */
-Bilhete Passageiro::getBilhete(){
-    return this->bilhete;
-}
+
 
 /**
  * Permite aceder ao atributo booleano checkinAuto de um objeto do tipo passageiro, que informa se o passageiro pretende ou não
@@ -71,13 +63,7 @@ void Passageiro::setBagagem(Bagagem bagagem){
     this->bagagem = bagagem;
 }
 
-/**
- * Permite modificar o atributo bilhete de um objeto do tipo passageiro.
- * @param bilhete1
- */
-void Passageiro::setBilhete(Bilhete bilhete1){
-    this->bilhete = bilhete1;
-}
+
 
 /**
  * Permite modificar o atributo checkinAuto de um objeto do tipo passageiro.
