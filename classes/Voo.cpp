@@ -355,3 +355,12 @@ void Voo::addStackAviao(Bagagem bagagem) {
 void Voo::removeStackAviao() {
     bagagemAviao.pop();
 }
+
+string Voo::toString() {
+    string result;
+    result.append("Número do voo: ").append(this->numVoo).append("\nData: ").append(this->data.toString());
+    result.append("\nHora: ").append(this->partida.toString()).append("\nDuração: ").append(this->duracao);
+    result.append("\nOrigem: ").append(this->origem).append("\nDestino: ").append(this->destino);
+    result.append("\nNúmero de passageiros: ").append(to_string(this->passageiro.size()));
+    return result;
+}

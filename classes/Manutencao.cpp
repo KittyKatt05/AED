@@ -38,6 +38,21 @@ void Manutencao::setTipoDeServico(TipoDeServico Type_Service) {
     this-> tipoServico = Type_Service;
 }
 
+string Manutencao::tipoToString() {
+    if(this->tipoServico == MANUTENCAO){
+        return "Manutenção";
+    }else{
+        return "Limpeza";
+    }
+}
+
+string Manutencao::manutencaoToString() {
+    string result;
+    result.append("Id: ").append(to_string(this->id)).append("\nData: ").append(this->data.toString()).append("\nResponsável: ");
+    result.append(this->responsible).append("\nTipo do serviço: ").append(this->tipoToString());
+    return result;
+}
+
 bool Manutencao::operator<(const Manutencao& manutencao1) {
     return this->data.operator<(manutencao1.data);
 }
@@ -65,3 +80,4 @@ Data Manutencao::getData() {
 void Manutencao::setData(Data data1) {
     this->data = data1;
 }
+

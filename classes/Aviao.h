@@ -51,6 +51,8 @@ public:
     void addBagagem(Bagagem bagagem1);
 
     void fazerManutencao();
+
+    string toString();
 };
 
 

@@ -79,6 +79,6 @@ public:
     void addStackAviao(Bagagem bagagem);
     void removeStackAviao();
 
-
+    string toString();
 };
 #endif //TRABALHO1_FLIGHT_H

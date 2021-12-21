@@ -22,6 +22,8 @@ public:
     void setHora(int hora);
     void setMinuto(int minuto);
 
+    string toString();
+
     //Todas as comparações de tempo consideram que maior é mais tarde
     bool operator<(Hora hora);
     bool operator==(Hora hora);

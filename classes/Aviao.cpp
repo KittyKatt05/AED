@@ -95,3 +95,14 @@ void Aviao::fazerManutencao() {
         // não tem nenhuma manutenção no cronograma
     }
 }
+
+string Aviao::toString() {
+    string result;
+    result.append("Matrícula: ").append(this->matricula).append("\nTipo: ").append(this->tipo);
+    result.append("\nCapacidade: ").append(to_string(this->capacidade)).append("\nNúmero de voos no plano de voo: ");
+    result.append(to_string(this->planoDeVoo.size())).append("\nNúmero de serviços agendados: ");
+    result.append(to_string(this->cronogramaManutencao.size())).append("\nNúmero de serviços feitos: ");
+    result.append(to_string(this->manutencaoFeita.size())).append("\nNúmero de bagagens: ");
+    result.append(to_string(this->bagagem.size()));
+    return result;
+}

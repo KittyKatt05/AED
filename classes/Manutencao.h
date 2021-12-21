@@ -20,10 +20,15 @@ public:
     Data getData();
     string getResponsavel();
     TipoDeServico getTipoDeServico();
+
     void setId(int id);
     void setData(Data data1);
     void setResponsavel(string responsible);
     void setTipoDeServico(TipoDeServico Type_Service);
+
+    string tipoToString();
+    string manutencaoToString();
+
     bool operator <(const Manutencao& manutencao1);
     bool operator <=(const Manutencao& manutencao1);
     bool operator ==(const Manutencao& manutencao1);
